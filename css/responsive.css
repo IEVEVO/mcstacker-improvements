@@ -1,0 +1,30 @@
+
+@media only screen and (max-width: 1000px) {
+	
+	.center, #topPart, .ads, #intro, .buttonNoBorder {
+		max-width: 99% !important;
+		width: 99% !important;
+		overflow-x: hidden;
+	}
+	
+	.roundedDiv, .roundedDiv div {
+		display: block !important;
+		width: 95% !important;
+	}
+	
+}
+
+
+@media only screen and (max-width: 768px) {
+	
+	#topPart #logo, #topPart #socialandnav {
+		display: block !important;
+		text-align: center;
+	}
+	
+	#topPart #socialandnav, #topPart #socialandnav #nav, #topPart #socialandnav #socialbuts {
+		width: 99% !important;
+		max-width: auto !important;
+	}
+	
+}

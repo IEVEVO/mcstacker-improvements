@@ -1,0 +1,130 @@
+
+#community {
+	background: #719fe8 !important;
+	
+	margin-left: auto !important;
+	margin-right: auto !important;
+	max-width: 1000px !important;
+	
+	border-radius: 0px !important;
+	padding: 20px 10px 20px 10px !important;
+}
+
+#community #navPane a, .mButton {
+	border-radius: 0px;
+	background: #fff;
+	color: #222;
+	padding: 5px 8px 5px 8px;
+	
+	transition: 0.1s color, 0.2s background;
+}
+#community #navPane a:hover, .mButton:hover {
+	background: #222;
+	color: #fff;
+	
+	transition: 0.1s color, 0.2s background;
+}
+
+#community .command {
+	/* title */
+	font-size: 2em;
+	margin-left: 15px;
+}
+#community .command i {
+	font-style: normal !important;
+	font-size: 15px;
+}
+
+#community select, #community input {
+	padding: 5px;
+	margin: 0 10px 0 10px !important;
+	vertical-align: middle !important;
+	max-width: 150px !important;
+}
+
+
+#navPane .fRight a {
+	margin-left: 15px;
+	
+	position: relative; bottom: 6px;
+}
+
+
+#detailsPane, #searchResults {
+	margin-top: 30px;
+}
+
+#detailsPane .fRight {
+	background: #eee;
+	margin-right: 20px;
+	padding: 5px 15px 5px 15px;
+	cursor: pointer;
+	
+	position: relative; bottom: 50px;
+}
+
+#detailsPane .mButton {
+	margin: 25px 5px 25px 5px !important;
+	padding: 5px 7px 5px 7px !important;
+}
+
+
+.pageButton, .pageButtonSelected {
+	padding: 4px 7px 4px 7px;
+	text-decoration: none;
+	min-width: 20px;
+	display: inline-block;
+	text-align: center;
+	
+	transition: 0.1s color, 0.1s background;
+}
+.pageButton:hover {
+	background: #ddd;
+	
+	transition: 0.1s color, 0.1s background;
+}
+
+.searchResults a {
+	color: #c1733f !important;
+}
+.searchResults a:visited {
+	color: #af6433 !important;
+}
+.searchResults td {
+	padding: 8px 3px 8px 10px;
+}
+
+.searchResults th, .searchResults th:visited {
+	font-size: 18px;
+	padding-left: 10px;
+	background: #fff;
+}
+
+
+.searchResults th:nth-child(5) {
+	width: 80px !important;
+}
+.searchResults th:nth-child(6) {
+	width: 50px !important;
+}
+
+.srRowLight {
+	background: #eee !important;
+}
+.srRowDark {
+	background: #ddd !important;
+}
+
+
+#detailsPane h2 {
+	font-size: 25px !important;
+}
+#detailsPane .command {
+	font-size: 20px;
+}
+#commandString {
+	width: 80%;
+	padding: 10px;
+	display: block;
+	margin: 0 auto 0 auto !important;
+}

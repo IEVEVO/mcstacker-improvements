@@ -1,0 +1,30 @@
+{
+	"manifest_version": 2,
+	"name": "MC Stacker - Improvements",
+	"version": "1.3",
+	
+	"description": "Small improvements to the UI of the MC Stacker Command Generator at mcstacker.net",
+	
+	"icons": {
+		"128": "icons/logo.png"
+	},
+	
+	"content_scripts": [
+		{
+			"matches": ["*://*.mcstacker.net/*"],
+			"exclude_globs": ["*://*.mcstacker.net/versions.php", "*://wcw.mcstacker.net/*"],
+			"run_at": "document_start",
+			"css": ["css/base.css", "css/utilities.css", "css/community.css", "css/responsive.css"],
+			"js": ["js/copyClick.js", "js/freezePopups_v2.js", "npc/npc.js", "js/trueClipboard.js"]
+		},
+		{
+			"matches": ["*://*.mcstacker.net/npc/*"],
+			"css": ["npc/npc.css"],
+			"js": ["npc/npc.js"]
+		},
+		{
+			"matches": ["*://wcw.mcstacker.net/*"],
+			"css": ["npc/wcw.css"]
+		}
+	]
+}

@@ -1,0 +1,82 @@
+
+.roundedDiv {
+	padding: 10px !important;
+	margin: 15px auto 15px auto !important;
+	max-width: 1000px !important;
+	border-radius: 0px !important;
+	font-size: 18px;
+	
+	display: block !important;
+}
+
+#Effects0Pane, .itemSelectControl, #TSPane {
+	color: #222;
+}
+
+.roundedDiv select, .roundedDiv input, #detailsPane input {
+	padding: 6px;
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-bottom: 6px;
+	font-size: 15px;
+	border: 1px solid #ddd;
+	
+	transition: 0.1s border, 0.1s background;
+}
+
+.roundedDiv select:focus, .roundedDiv input:focus, #exeString:focus {
+	border: 1px solid #888 !important;
+	background: #eee !important;
+	outline: 0 !important;
+	
+	transition: 0.1s border, 0.1s background;
+}
+
+#exeString {
+	padding: 5px !important;
+	margin-left: 7px !important;
+	margin-bottom: 10px !important;
+	
+	transition: 0.1s border, 0.1s background;
+}
+
+
+.pageSetup, .pageSetup input {
+	font-size: 14px;
+}
+
+#teamPaneItemPane, #tellrawPaneItemPane, #scoreboardPaneItemPane, #bossbarPaneItemPane {
+	display: block !important;
+	min-height: 300px !important;
+	
+}
+
+
+.buttonNoBorder, .buttonNoBorder:visited {
+	color: #222;
+}
+
+
+#CustomName0EntityName {
+	display: inline-block !important;
+	margin-bottom: 15px !important;
+	text-align: center;
+	width: 80% !important;
+}
+#CustomName0Setup span:nth-child(2) {
+	/* header */
+	display: inline-block;
+	margin: 5px 0 10px 0 !important;
+}
+#CustomName0Setup span:nth-child(3) {
+	/* form */
+	display: block !important;
+	width: 100% !important;
+	padding: 10px 0 20px 0 !important;
+	position: relative; left: 100px;
+}
+
+
+#entity0_filter {
+	width: 200px !important;
+}

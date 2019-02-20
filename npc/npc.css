@@ -1,0 +1,40 @@
+
+body {
+	padding-bottom: 30px;
+}
+
+.wrapper {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	max-width: 1000px !important;
+	text-align: center;
+	
+	display: block !important;
+}
+
+
+.wrapper .item1, .wrapper .item2 {
+	display: inline-block !important;
+	width: 50%;
+}
+
+.wrapper .item2 {
+	margin-top: 15px !important;
+	margin-bottom: 25px !important;
+}
+
+p.tut {
+	padding: 7px 10px 7px 10px;
+	max-width: 80%;
+	overflow-x: auto;
+}
+
+
+table td {
+	padding: 5px;
+}
+
+textarea {
+	padding: 5px;
+	margin-top: 8px;
+}

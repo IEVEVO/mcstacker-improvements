@@ -1,0 +1,194 @@
+body {
+	margin-top: 25px;
+	margin-bottom: 30px;
+	font-size: 1em !important;
+}
+
+a {
+	color: #e8760b;
+}
+a:visited {
+	color: #c46309;
+}
+a:hover {
+	color: #888;
+}
+a:active {
+	color: #0b67e8;
+}
+
+.small {
+	font-size: 12px;
+	opacity: 0.6;
+}
+
+
+.center, #topPart, .ads, #intro, .buttonNoBorder {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	max-width: 1000px !important;
+	
+	display: block !important;
+}
+
+
+
+#topPart {
+	min-height: 160px !important;
+	height: auto !important;
+	width: 1000px !important;
+	padding: 15px 0 10px 10px !important;
+}
+
+#topPart #logo {
+	padding-right: 15px !important;
+	width: 166px !important; height: 132px !important;
+}
+
+#topPart #socialandnav, #topPart #socialandnav #nav, #topPart #socialandnav #socialbuts {
+	width: 75% !important;
+	max-width: 800px !important;
+}
+
+#topPart #socialbuts {
+	padding-bottom: 5px !important;
+}
+
+.combut {
+	padding: 7px 8px 7px 8px !important;
+	border-radius: 0px !important;
+	font-size: 14px !important;
+	border: 2px solid #ededed !important;
+	background: #ededed !important;
+	
+	transition: 0.2s background, 0.1s color, 0.2s border;
+}
+.combut:hover, .funcbuts:hover {
+	background: #ccc !important;
+	color: #222 !important;
+	border-color: #ccc !important;
+	
+	transition: 0.2s background, 0.1s color, 0.2s border;
+}
+.combut:active, .funcbuts:active {
+	background: #aaa !important;
+}
+
+.funcbuts {
+	position: absolute;
+	right: 0;
+	text-align: center;
+	display: inline-block;
+	width: 120px; height: 20px !important;
+	margin-left: 10px !important;
+	border-radius: 0px !important;
+	
+	transition: 0.2s background, 0.1s color, 0.2s border;
+}
+
+
+.ads {
+	width: 1000px !important;
+	padding: 10px 0 10px 0 !important;
+	text-align: center !important;
+}
+
+.bigads {
+	display: none !important;
+}
+.bottomLinks {
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding-top: 15px;
+}
+.bottomLinks a {
+	display: inline-block;
+	padding: 10px; margin: 10px 5px 2px 5px;
+	background: #eee;
+	transition: 0.2s background;
+}
+.bottomLinks a:hover {
+	background: #ddd;
+	transition: 0.2s background;
+}
+.bottomLinks a:active {
+	background: #aaa;
+}
+
+
+#intro p, #intro table {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+#intro table {
+	padding: 15px 0 20px 0 !important;
+}
+#intro td {
+	padding: 10px 10px 0 10px !important;
+}
+#intro th {
+	font-size: 20px;
+}
+
+
+	/* draggable popups */
+.redX, .greenPlus, .showHide, .ticks {
+	padding: 4px 7px 4px 7px !important;
+}
+.redX:hover, .greenPlus:hover, .showHide:hover, .ticks:hover {
+	background: #eee;
+}
+.redX {
+	float: right !important;
+	margin-bottom: 10px !important;
+}
+
+.ticks::after {
+	content: ">";
+	padding-left: 3px;
+	opacity: 0.2;
+	
+	transition: 0.1s opacity, 0.1s padding;
+}
+.ticks:hover::after {
+	padding-left: 6px;
+	opacity: 0.8;
+	
+	transition: 0.1s opacity, 0.1s padding;
+}
+
+#rootEntitySH {
+	margin: 0 auto 0 auto !important;
+	display: block;
+	width: 13px;
+	text-align: center;
+}
+
+
+.ui-draggable {
+	padding: 10px !important;
+	opacity: 0.3 !important;
+	transition: 0.2s opacity;
+}
+.ui-draggable:hover {
+	opacity: 1 !important;
+	transition: 0.2s opacity;
+}
+
+.ui-draggable textarea {
+	padding: 7px !important;
+	box-sizing: border-box !important;
+	margin: 10px 0 10px 0 !important;
+}
+
+.ui-draggable.visible {
+	opacity: 1 !important;
+	border: 3px solid #000 !important;
+}
+
+#clipBoard select, #clipBoard option {
+	margin-left: 7px;
+	padding: 4px !important;
+}

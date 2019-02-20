@@ -1,0 +1,15 @@
+1.0:
+- finished
+
+1.1:
+- draggable containers can be frozen (click)
+
+1.2:
+- redesigned NPC creator and WCW page
+- organised files
+
+1.3:
+- "copy" buttons in draggable containers now copy to both the computer's clipboard and browser storage
+  - added "paste" buttons to the applicable containers
+- most buttons now have fade transitions
+- various small improvements to the "community" tab ui
